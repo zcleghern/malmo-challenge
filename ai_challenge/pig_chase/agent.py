@@ -20,7 +20,9 @@ from __future__ import division
 import sys
 import time
 from collections import namedtuple
-from tkinter import ttk, Canvas, W
+#from tkinter import ttk, Canvas, W
+from Tkinter import Canvas, W
+import ttk
 
 import numpy as np
 from common import visualize_training, Entity, ENV_TARGET_NAMES, ENV_ENTITIES, ENV_AGENT_NAMES, \
